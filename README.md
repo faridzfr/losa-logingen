@@ -68,7 +68,7 @@ start lostsaga.exe EDEW3940FVDP4950,10,20,30,1,autoupgrade_info.ini,-1,0,1,11948
 
 ### Output File
 
-Script creates `lostart.bat` file. Move it to client folder, run FIX_EXPIRED_KEY procedure and run lostart.bat.
+Script creates `lostart.bat` file. Move it to client folder, run FIX_EXPIRED_KEY procedure and run `lostart.bat`.
 
 ## Contributing
 
