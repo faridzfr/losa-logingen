@@ -1,7 +1,7 @@
 ```markdown
 # Lost Saga Login Command Generator
 
-Generates a login command for private/self-hosted Lost Saga using Python and cryptography.
+Generates login command for private/self-hosted Lost Saga using Python and cryptography.
 ```
 ## FIX_EXPIRED_KEY Procedure
 In most cases, the error message `"UserNodeManager::OnResultSelectUserLoginInfo : Error Expire Key:"` in logs means that `conndate` does not match the local time. It's recommended to change `GETDATE()` in the `Fix_Expired_Key` procedure to the local timezone for more accurate `conndate`
