@@ -50,5 +50,7 @@ print("\nGenerated Command:")
 print(final_command)
 
 # lostart.bat
-with open("lostart.bat", "w") as bat_file:
+bat_filename = f"lostart-{userid}.bat"
+with open(bat_filename, "w") as bat_file:
     bat_file.write(final_command)
+print(f"Batch file saved as {bat_filename}")
